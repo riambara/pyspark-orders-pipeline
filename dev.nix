@@ -1,5 +1,5 @@
 # To learn more about how to use Nix to configure your environment
-# see: https://firebase.google.com/docs/studio/customize-workspace
+# see: https://developers.google.com/idx/guides/customize-idx-env
 { pkgs, ... }: {
   # Which nixpkgs channel to use.
   channel = "stable-24.05"; # or "unstable"
@@ -27,6 +27,7 @@
       "ms-azuretools.vscode-docker"
       "ms-python.python"
       # "vscodevim.vim"
+      "google.gemini-cli-vscode-ide-companion"
     ];
     # Enable previews
     previews = {

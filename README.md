@@ -2,12 +2,12 @@
 
 A complete data pipeline for orders analysis using PySpark (ingestion, join, transformation, and Parquet storage).
 
-📦 pyspark-orders-pipeline
-├── 📁 spark/
-│   ├── 📁 data/
+pyspark-orders-pipeline/
+├── spark/
+│   ├── data/
 │   │   ├── orders.csv
 │   │   └── order_items.csv
-│   └── 📁 scripts/
+│   └── scripts/
 │       ├── 01_data_ingestion.py
 │       ├── 02_data_joining.py
 │       ├── 03_data_transformation.py

@@ -2,6 +2,7 @@
 
 A complete data pipeline for orders analysis using PySpark (ingestion, join, transformation, and Parquet storage).
 
+##📁 File Structure
 pyspark-orders-pipeline/
 ├── spark/
 │   ├── data/
